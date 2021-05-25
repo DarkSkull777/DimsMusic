@@ -143,7 +143,7 @@ async def playlist(client, message):
     if temp:
         msg += '\n\n'
         msg += '**Antri**'
-        Untuk Lagu Di temp:
+        for song in temp:
             name = song[0]
             usr = song[1].mention(style='md')
             msg += f'\n- {name}'
@@ -248,8 +248,8 @@ async def p_cb(b, cb):
         temp.pop(0)
         if temp:
              msg += '\n\n'
-             msg += '**Antri**'
-             Untuk Lagu Di temp:
+             msg += '**Queue**'
+             for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
                  msg += f'\n- {name}'
@@ -308,7 +308,7 @@ async def m_cb(b, cb):
         temp.pop(0)
         if temp:
              msg += '\n\n'
-             msg += '**Antri**'
+             msg += '**Queue**'
              for song in temp:
                  name = song[0]
                  usr = song[1].mention(style='md')
