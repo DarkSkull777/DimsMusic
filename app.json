@@ -1,9 +1,9 @@
 {
   "name": "Music Bot",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "logo": "https://telegra.ph/file/41871555394988009d3ca.jpg",
+  "logo": "https://telegra.ph/file/65cae848eaf116052b754.jpg",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/W2HGalaxy-Op/W2HMusic",
+  "repository": "https://github.com/Boncel-Cell/DimsMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -11,7 +11,7 @@
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "A bot token from @BotFather",
+      "description": "Ambil Bot Token Di @BotFather",
       "required": true
     },
     "BOT_NAME": {
@@ -20,11 +20,11 @@
       "value": ""
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "Ambil Di my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "Ambil Di my.telegram.org/apps",
       "required": true
     },
     "SUDO_USERS": {
@@ -34,7 +34,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "20"
+      "value": "200"
     }
   }
 }
