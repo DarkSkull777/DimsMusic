@@ -13,32 +13,32 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor group with whole permission except Send Anonymously option first and must check /help</b>",
+            "<b>Tambahkan saya sebagai admin grup Anda dengan izin penuh kecuali opsi Admin Anonim terlebih dahulu dan harus tekan /help</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "W2HMusic"
+        user.first_name =  "DimsMusic"
 
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id,"I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>Assistant already in your chat</b>",
+            "<b>Asisten sudah ada di obrolan Anda</b>",
         )
         pass
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @W2HMusic to your Group and try again</b>",
+            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk userbot! Pastikan pengguna tidak dilarang dalam grup."
+            "\n\nOr tambahkan @BotDimsMusic ke Grup Anda secara manual dan coba lagi</b>",
         )
         return
     await message.reply_text(
-            "<b>Assistant userbot joined your chat</b>",
+            "<b>Asisten userbot bergabung dengan obrolan Anda</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["userbotleave"]))
@@ -47,7 +47,7 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:  
         await message.reply_text(
-            f"<b>User couldn't leave your group! May be floodwaits."
-            "\n\nOr manually kick me from to your Group</b>",
+            f"<b>Pengguna tidak dapat meninggalkan grup Anda!."
+            "\n\nOr menendang saya secara manual dari ke Grup Anda</b>",
         )
         return
