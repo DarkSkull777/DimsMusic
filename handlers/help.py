@@ -10,28 +10,28 @@ from pyrogram.types import Message
 )
 async def help_(client: Client, message: Message):
     await message.reply_text(
-        f"""❤ The commands and there use is explained here ❤
-**For all in group**
-- `/play <song name>` - play song you requested
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/video <song name>` - download videos you want quickly
+        f"""❤ Perintah dan penggunaannya dijelaskan di sini ❤
+**Perintah Untuk Member**
+- `/play <Judul Lagu>` - Putar Lagu Yang Anda Minta
+- `/dplay <Judul Lagu>` - Putar Lagu Yang Anda Minta Melalui Deezer
+- `/splay <Judul Lagu>` - Putar Lagu Yang Anda Minta Melalui Saavn
+- `/playlist` - Melihat Daftar Lagu
+- `/current` - Melihat Lagu Yang Sedang Di Putar
+- `/song <Judul Lagu>` - Download Lagu Yang Anda inginkan dengan cepat
+- `/search <query>` - Cari Video Di YouTube Dengan Detail
+- `/deezer <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat Melalui Dengan Via Deezer
+- `/saavn <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat Melalui Dengan Via Saavn
+- `/video <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat
 
 **Admins only**
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/admincache` - Refresh admin list""")
+- `/player` - Buka Panel Pengaturan Pemutar Musik
+- `/pause` - Jeda Pemutaran Lagu
+- `/resume` - Melanjutkan Pemutaran Lagu
+- `/skip` - Memutar Lagu Berikutnya
+- `/end` - Hentikan Pemutaran Musik
+- `/userbotjoin` - Mengundang asisten ke Grup Anda
+- `/userbotleave` - Hapus asisten dari Grup Anda
+- `/admincache` - Refresh Daftar Admin""")
 
 @Client.on_message(
     filters.command("help")
@@ -40,25 +40,25 @@ async def help_(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""❤ The commands and there use is explained here ❤
-**For all in group**
-- `/play <song name>` - play song you requested
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/video <song name>` - download videos you want quickly
+        f"""❤ Perintah dan penggunaannya dijelaskan di sini ❤
+**Perintah Untuk Member**
+- `/play <Judul Lagu>` - Putar Lagu Yang Anda Minta
+- `/dplay <Judul Lagu>` - Putar Lagu Yang Anda Minta Melalui Deezer
+- `/splay <Judul Lagu>` - Putar Lagu Yang Anda Minta Melalui Saavn
+- `/playlist` - Melihat Daftar Lagu
+- `/current` - Melihat Lagu Yang Sedang Di Putar
+- `/song <Judul Lagu>` - Download Lagu Yang Anda inginkan dengan cepat
+- `/search <query>` - Cari Video Di YouTube Dengan Detail
+- `/deezer <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat Melalui Dengan Via Deezer
+- `/saavn <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat Melalui Dengan Via Saavn
+- `/video <Judul Lagu>` - Download Lagu Yang Anda Inginkan Dengan Cepat
 
 **Admins only**
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/admincache` - Refresh admin list""")
+- `/player` - Buka Panel Pengaturan Pemutar Musik
+- `/pause` - Jeda Pemutaran Lagu
+- `/resume` - Melanjutkan Pemutaran Lagu
+- `/skip` - Memutar Lagu Berikutnya
+- `/end` - Hentikan Pemutaran Musik
+- `/userbotjoin` - Mengundang asisten ke Grup Anda
+- `/userbotleave` - Hapus asisten dari Grup Anda
+- `/admincache` - Refresh Daftar Admin""")
