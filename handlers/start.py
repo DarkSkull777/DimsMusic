@@ -9,7 +9,7 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**Haii, My Name is  {bn}\n\n Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
+        f"""**Haii, My Name is  {bn} \n\n Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :\n **┏━━━━━━━━━━━━━━
 ┣• Memutar Musik.
 ┣• Mendownload Lagu.
@@ -28,7 +28,6 @@ Saya Memiliki Banyak Fitur Praktis Seperti :\n **┏━━━━━━━━━�
                     ),
                     InlineKeyboardButton(
                         "JOIN CHANNEL⚡️", url="https://t.me/GOLDEN_QUOTES_INDONESIA"
-"
                     )
                 ],
                 [
