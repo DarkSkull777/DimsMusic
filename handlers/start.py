@@ -27,7 +27,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :\n **┏━━━━━━━━━�
                         "JOIN GROUP⚡️", url="https://t.me/CARI_DOI_INDONESIA"
                     ),
                     InlineKeyboardButton(
-                        "JOIN CHANNEL⚡️", url="https://t.me/GOLDEN_QUOTES_INDONESIA
+                        "JOIN CHANNEL⚡️", url="https://t.me/GOLDEN_QUOTES_INDONESIA"
 "
                     )
                 ],
