@@ -10,11 +10,11 @@ from config import BOT_NAME as bn
 async def start(_, message: Message):
     await message.reply_text(
         f"""**Haii, My Name is {bn}\n\n Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti :\n\n**┏━━━━━━━━━━━━━━
+Saya Memiliki Banyak Fitur Praktis Seperti :\n\n **┏━━━━━━━━━━━━━━
 **┣• Memutar Musik.**
 **┣• Mendownload Lagu.**
 **┣• Mencari Lagu Yang ingin di Putar atau di Download.**
-**┗━━━━━━━━━━━━━━**\n **❃ Managed With 🥵 By : @dims_whydi**\n **━━━━━━━━━━━━━━━**\n\n **Asisten harus ada di grup Anda untuk memutar musik di obrolan suara grup Anda.**\n\n **untuk mengetahui perintah saya tekan /help**""",
+**┗━━━━━━━━━━━━━━**\n **❃ Managed With 🥵 By : @dims_whydi**\n **━━━━━━━━━━━━━━━**\n\n **Asisten harus ada di grup Anda untuk memutar musik di obrolan suara grup Anda.**\n\n **Untuk mengetahui perintah saya tekan /help**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
