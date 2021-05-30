@@ -9,12 +9,18 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""**Haii, Saya Adalah {bn}\n\n Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti :\n\n **┏━━━━━━━━━━━━━━
-**┣• Memutar Musik.**
-**┣• Mendownload Lagu.**
-**┣• Mencari Lagu Yang ingin di Putar.**
-**┗━━━━━━━━━━━━━━**\n **❃ Managed With 🥵 By : @dims_whydi**\n **━━━━━━━━━━━━━━━**\n\n **Asisten harus ada di grup Anda untuk memutar musik di obrolan suara grup Anda.**\n\n **Untuk mengetahui perintah saya tekan /help**""",
+        f"""<b>Haii {message.from_user.first_name}, Saya Adalah {bn}\n
+Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
+Saya Memiliki Banyak Fitur Praktis Seperti :
+┏━━━━━━━━━━━━━━
+┣• Memutar Musik.
+┣• Mendownload Lagu.
+┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┗━━━━━━━━━━━━━━ 
+❃ Managed With 🥵 By : @dims_whydi
+━━━━━━━━━━━━━━━\n 
+Asisten harus ada di grup Anda untuk memutar musik di obrolan suara grup Anda.\n 
+untuk mengetahui perintah saya tekan /help</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
