@@ -114,8 +114,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 - Inline search is also supported.
 
-* Bot Link:  <a href="https://t.me/DimsMusicBot" alt="DimsMusic"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-DimsMusic-blue" /> </a>
-* News channel: <a  href="https://t.me/Golden_quotes_indonesia" alt="DimsMusic Updates"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-DimsMusic%20Updates-9cf" /> </a>
+* Bot Link:  <a href="https://t.me/MusicDimsBot" alt="DimsMusic"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-DimsMusic-blue" /> </a>
 
 ## Grup
 - [Channel](https://t.me/golden_quotes_indonesia)
