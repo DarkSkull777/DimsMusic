@@ -38,7 +38,7 @@ untuk mengetahui perintah saya tekan /help</b>""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Ke Group⚡️", url="https://t.me/@MusicDimsBot?startgroup=true"
+                        "Tambahkan Ke Group⚡️", url="https://t.me/MusicDimsBot?startgroup=true"
                     )
                 ]
             ]
