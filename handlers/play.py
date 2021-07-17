@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nPengguna {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan untuk Assistant! Pastikan Assistant tidak di banned di grup anda."
-                                  "\n\nAtau tambahkan @AssistantDims ke Grup Anda secara manual dan coba lagi</b>",
+                                  "\n\nAtau tambahkan @AssistantDimas ke Grup Anda secara manual dan coba lagi</b>",
                               )
                               pass
     try:
@@ -490,8 +490,8 @@ async def play(_, message: Message):
                 ],                     
                 [
                    InlineKeyboardButton(
-                       text="⭐ Support ⭐",
-                       url='https://t.me/cari_doi_indonesia')
+                       text="Creator🌹"
+                       url='https://t.me/xskull7')
                 ],
                 [       
                     InlineKeyboardButton(
@@ -553,7 +553,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "Dims Music"
+        user.first_name =  "Dimas MusicVC"
     usar = user
     wew = usar.id
     try:
@@ -583,7 +583,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nPengguna {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan untuk Assistant! Pastikan Assistant tidak di banned di grup anda."
-                                  "\n\nAtau tambahkan @AssistantDims ke Grup Anda secara manual dan coba lagi</b>",
+                                  "\n\nAtau tambahkan @AssistantDimas ke Grup Anda secara manual dan coba lagi</b>",
                               )
                               pass
     try:
@@ -622,8 +622,8 @@ async def deezer(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="⭐ Support ⭐",
-                   url='https://t.me/Cari_doi_indonesia')
+                   text="Creator 🌹",
+                   url='https://t.me/xskull7')
              ],
              [       
                  InlineKeyboardButton(
@@ -645,9 +645,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯Dims Music✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f"Dimas Music= #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯Dims Music✯=▶️ Playing.....")
+        await res.edit_text("Dimas Music=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -682,7 +682,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "Dims Music"
+        user.first_name =  "Dimas Music"
     usar = user
     wew = usar.id
     try:
@@ -712,7 +712,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @AssistantDims to your Group and try again</b>",
+                                  "\n\nOr manually add @AssistantDimas to your Group and try again</b>",
                               )
                               pass
     try:
@@ -755,8 +755,8 @@ async def jiosaavn(client: Client, message_: Message):
              ],                     
              [
                InlineKeyboardButton(
-                   text="⭐ Support ⭐",
-                   url='https://t.me/Cari_doi_indonesia')
+                   text="Creator🌹",
+                   url='https://t.me/xskull7')
              ],
              [       
                InlineKeyboardButton(
@@ -780,12 +780,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯Dims Music✯=#️⃣ Queued at position {position}",
+            caption=f"Dimas Music=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯Dims Music✯=▶️ Playing.....")
+        await res.edit_text("Dimas Music=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
