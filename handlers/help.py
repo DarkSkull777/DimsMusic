@@ -10,7 +10,7 @@ from pyrogram.types import Message
 )
 async def help_(client: Client, message: Message):
     await message.reply_text(
-        f"""❤ Perintah dan penggunaannya dijelaskan di sini ❤
+        f"""Perintah dan penggunaannya dijelaskan di sini🔥
 **Perintah Untuk Member**
 
 - `/play <Judul Lagu>` - Putar Lagu Yang Anda Minta
@@ -57,7 +57,7 @@ async def help_(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""❤ Perintah dan penggunaannya dijelaskan di sini ❤
+        f"""Perintah dan penggunaannya dijelaskan di sini🔥
 **Perintah Untuk Member**
 
 - `/play <Judul Lagu>` - Putar Lagu Yang Anda Minta
