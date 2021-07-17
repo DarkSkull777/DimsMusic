@@ -491,7 +491,7 @@ async def play(_, message: Message):
                 [
                    InlineKeyboardButton(
                        text="Creator🌹"
-                       url='https://t.me/xskull7')
+                       url="https://t.me/xskull7")
                 ],
                 [       
                     InlineKeyboardButton(
