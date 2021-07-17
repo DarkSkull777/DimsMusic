@@ -9,7 +9,7 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""<b>Haii {message.from_user.first_name}, Saya Adalah {bn}\n
+        f"""<b>hey {message.from_user.first_name}, Saya Adalah {bn}\n
 Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
 ┏━━━━━━━━━━━━━━
@@ -17,7 +17,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Mendownload Lagu.
 ┣• Mencari Lagu Yang ingin di Putar atau di Download.
 ┗━━━━━━━━━━━━━━ 
-❃ Managed With 🥵 By : @dims_whydi
+❃ Managed With 🔥 By : @xskull7
 ━━━━━━━━━━━━━━━\n 
 Asisten harus ada di grup Anda untuk memutar musik di obrolan suara grup Anda.\n 
 untuk mengetahui perintah saya tekan /help</b>""",
@@ -25,20 +25,20 @@ untuk mengetahui perintah saya tekan /help</b>""",
             [
                 [
                     InlineKeyboardButton(
-                        "OWNER⚡️", url="https://t.me/dims_whydi"
+                        "WEBSITE📌", url="https://darkskull7.my.to"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "JOIN GROUP⚡️", url="https://t.me/CARI_DOI_INDONESIA"
+                        "ASISTEN🤖", url="https://t.me/xskull77"
                     ),
                     InlineKeyboardButton(
-                        "JOIN CHANNEL⚡️", url="https://t.me/GOLDEN_QUOTES_INDONESIA"
+                        "BLOG🌹", url="https://darkskull7.blogspot.com"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Tambahkan Ke Group⚡️", url="https://t.me/MusicDimsBot?startgroup=true"
+                        "Tambahkan Ke Group⚡️", url="https://t.me/dimasvcmusic_bot?startgroup=true"
                     )
                 ]
             ]
